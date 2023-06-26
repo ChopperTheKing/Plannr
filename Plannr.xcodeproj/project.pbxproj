@@ -16,6 +16,13 @@
 		49BF72C82A48BFD900A243C9 /* PlannrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72C72A48BFD900A243C9 /* PlannrTests.swift */; };
 		49BF72D22A48BFD900A243C9 /* PlannrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72D12A48BFD900A243C9 /* PlannrUITests.swift */; };
 		49BF72D42A48BFD900A243C9 /* PlannrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72D32A48BFD900A243C9 /* PlannrUITestsLaunchTests.swift */; };
+		49BF72E12A48C39C00A243C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72E02A48C39C00A243C9 /* ContentView.swift */; };
+		49BF72EE2A48E25900A243C9 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49BF72ED2A48E25900A243C9 /* CalendarKit */; };
+		49BF72F02A48E7DC00A243C9 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72EF2A48E7DC00A243C9 /* PortfolioView.swift */; };
+		49BF72F52A48E7EC00A243C9 /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72F12A48E7EC00A243C9 /* PlannerView.swift */; };
+		49BF72F62A48E7EC00A243C9 /* InvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72F22A48E7EC00A243C9 /* InvestView.swift */; };
+		49BF72F72A48E7EC00A243C9 /* AdvisorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72F32A48E7EC00A243C9 /* AdvisorView.swift */; };
+		49BF72F82A48E7EC00A243C9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF72F42A48E7EC00A243C9 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,12 @@
 		49BF72CD2A48BFD900A243C9 /* PlannrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BF72D12A48BFD900A243C9 /* PlannrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannrUITests.swift; sourceTree = "<group>"; };
 		49BF72D32A48BFD900A243C9 /* PlannrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49BF72E02A48C39C00A243C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49BF72EF2A48E7DC00A243C9 /* PortfolioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		49BF72F12A48E7EC00A243C9 /* PlannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		49BF72F22A48E7EC00A243C9 /* InvestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestView.swift; sourceTree = "<group>"; };
+		49BF72F32A48E7EC00A243C9 /* AdvisorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvisorView.swift; sourceTree = "<group>"; };
+		49BF72F42A48E7EC00A243C9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BF72EE2A48E25900A243C9 /* CalendarKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +116,16 @@
 				49BF72B02A48BFD800A243C9 /* AppDelegate.swift */,
 				49BF72B22A48BFD800A243C9 /* SceneDelegate.swift */,
 				49BF72B42A48BFD800A243C9 /* ViewController.swift */,
-				49BF72B62A48BFD800A243C9 /* Main.storyboard */,
-				49BF72B92A48BFD900A243C9 /* Assets.xcassets */,
-				49BF72BB2A48BFD900A243C9 /* LaunchScreen.storyboard */,
+				49BF72E02A48C39C00A243C9 /* ContentView.swift */,
+				49BF72EF2A48E7DC00A243C9 /* PortfolioView.swift */,
+				49BF72F32A48E7EC00A243C9 /* AdvisorView.swift */,
+				49BF72F22A48E7EC00A243C9 /* InvestView.swift */,
+				49BF72F12A48E7EC00A243C9 /* PlannerView.swift */,
+				49BF72F42A48E7EC00A243C9 /* ProfileView.swift */,
 				49BF72BE2A48BFD900A243C9 /* Info.plist */,
+				49BF72B62A48BFD800A243C9 /* Main.storyboard */,
+				49BF72BB2A48BFD900A243C9 /* LaunchScreen.storyboard */,
+				49BF72B92A48BFD900A243C9 /* Assets.xcassets */,
 			);
 			path = Plannr;
 			sourceTree = "<group>";
@@ -143,6 +163,9 @@
 			dependencies = (
 			);
 			name = Plannr;
+			packageProductDependencies = (
+				49BF72ED2A48E25900A243C9 /* CalendarKit */,
+			);
 			productName = Plannr;
 			productReference = 49BF72AD2A48BFD800A243C9 /* Plannr.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 49BF72A42A48BFD800A243C9;
+			packageReferences = (
+				49BF72EC2A48E25900A243C9 /* XCRemoteSwiftPackageReference "CalendarKit" */,
+			);
 			productRefGroup = 49BF72AE2A48BFD800A243C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				49BF72B52A48BFD800A243C9 /* ViewController.swift in Sources */,
+				49BF72F82A48E7EC00A243C9 /* ProfileView.swift in Sources */,
+				49BF72F62A48E7EC00A243C9 /* InvestView.swift in Sources */,
+				49BF72F02A48E7DC00A243C9 /* PortfolioView.swift in Sources */,
 				49BF72B12A48BFD800A243C9 /* AppDelegate.swift in Sources */,
+				49BF72E12A48C39C00A243C9 /* ContentView.swift in Sources */,
 				49BF72B32A48BFD800A243C9 /* SceneDelegate.swift in Sources */,
+				49BF72F52A48E7EC00A243C9 /* PlannerView.swift in Sources */,
+				49BF72F72A48E7EC00A243C9 /* AdvisorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49BF72EC2A48E25900A243C9 /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49BF72ED2A48E25900A243C9 /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49BF72EC2A48E25900A243C9 /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49BF72A52A48BFD800A243C9 /* Project object */;
 }
